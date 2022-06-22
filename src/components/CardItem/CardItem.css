@@ -1,0 +1,40 @@
+.check {
+    width: 24px;
+    height: 24px;
+    background-image: url("../../Images/check.png");
+}
+
+.check-white {
+    width: 24px;
+    height: 24px;
+    background-image: url("../../Images/check_white.png");
+}
+
+.cross {
+    width: 24px;
+    height: 24px;
+    background-image: url("../../Images/cross.png");
+}
+
+.card-list-container {
+    display: flex;
+    align-items: center;
+    gap: var(--list-item-gap);
+    margin-left: var(--card-margin-left);
+    margin-right: var(--card-margin-left);
+}
+
+.card-list {
+    font-weight: var(--list-weight);
+    font-size: var(--text-size);
+    font-family: var(--font-family);
+    color: var(--color-black);
+}
+
+.disable-text {
+    color: var(--color-disable);
+}
+
+.card-list-selected {
+    color: var(--color-white);
+}

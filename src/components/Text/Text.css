@@ -1,0 +1,21 @@
+.title {
+    font-weight: var(--title-weight);
+    font-size: var(--title-size);
+    font-family: var(--font-family);
+    color: var(--color-black);
+    text-align: center;
+}
+
+.subtitle {
+    font-weight: var(--text-weight);
+    font-size: var(--text-size);
+    font-family: var(--font-family);
+    color: var(--color-gray);
+    margin-left: var(--card-margin-left);
+    margin-right: var(--card-margin-left);
+}
+
+
+.text-selected {
+    color: var(--color-white) !important;
+}

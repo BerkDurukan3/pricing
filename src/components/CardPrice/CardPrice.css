@@ -1,0 +1,27 @@
+.card-price {
+    font-weight: var(--button-weight);
+    font-size: var(--title-size);
+    font-family: var(--font-family);
+    color: var(--color-black);
+    margin-left: var(--card-margin-left);
+    margin-right: var(--card-margin-left);
+}
+
+.card-month {
+    font-weight: var(--text-weight);
+    font-size: var(--text-size);
+    font-family: var(--font-family);
+    color: var(--color-gray);
+}
+
+.show-price {
+    display: block;
+}
+
+.hide-price {
+    display: none;
+}
+
+.price-selected {
+    color: var(--color-white);
+}

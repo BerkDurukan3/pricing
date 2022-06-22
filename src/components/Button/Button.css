@@ -1,0 +1,26 @@
+.button-default {
+    background: var(--color-btn-primary);
+    border-radius: var(--btn-radius);
+    color: var(--color-btn-dribble);
+    font-weight: var(--button-weight);
+    font-size: var(--text-size);
+    font-family: var(--font-family);
+    margin: auto auto 32px;
+    width: 312px;
+    height: 54px;
+    border: 0px;
+}
+
+.button-default:hover {
+    background: var(--color-btn-dribble);
+    color: var(--color-white);
+}
+
+.button-selected {
+    background: var(--color-white);
+}
+
+.button-selected:hover {
+    background: var(--color-white);
+    color: var(--color-btn-dribble);
+}
